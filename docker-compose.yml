@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bebas:
+    image: bebas
+    build:
+      context: .
+      dockerfile: ./Dockerfile
